@@ -2,7 +2,7 @@ version: '3'
 
 services:
   postgres:
-    image: postgres:11
+    image: postgres:17
     container_name: postgres_demo_container
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
